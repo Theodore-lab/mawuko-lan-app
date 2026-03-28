@@ -1,0 +1,22 @@
+name: mawuko_lan_app
+description: "Offline Mesh Infrastructure"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_p2p_connection: ^1.1.0
+  permission_handler: ^11.0.0
+  cryptography: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
